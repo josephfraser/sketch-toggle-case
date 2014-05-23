@@ -1,0 +1,19 @@
+for (var i=0; i < [selection count]; i++){
+	var textLayer = selection[i];
+	_str = [textLayer stringValue];
+	
+	if(_str == _str.toLowerCase()){
+		var l_string = _str.toUpperCase();
+		[textLayer setStringValue: l_string];
+		
+	}
+	else{
+		var u_string = _str.toLowerCase();
+		[textLayer setStringValue: u_string];
+	}
+
+  
+}
+
+
+
